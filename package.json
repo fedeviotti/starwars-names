@@ -1,0 +1,28 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random Star Wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedeviotti/starwars-names.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "Federico Viotti <fedeviotti@gmail.com> (https://www.fedenrg.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedeviotti/starwars-names/issues"
+  },
+  "homepage": "https://github.com/fedeviotti/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}

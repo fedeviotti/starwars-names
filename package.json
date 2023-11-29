@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/fedeviotti/starwars-names-fv#readme",
   "dependencies": {
+    "chai": "3.2.0",
+    "mocha": "2.2.5",
     "unique-random-array": "1.0.0"
   }
 }

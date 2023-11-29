@@ -1,6 +1,6 @@
 {
   "name": "starwars-names-fv",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fedeviotti/starwars-names.git"
+    "url": "git+https://github.com/fedeviotti/starwars-names-fv.git"
   },
   "keywords": [
     "random",
@@ -19,9 +19,9 @@
   "author": "Federico Viotti <fedeviotti@gmail.com> (https://www.fedenrg.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fedeviotti/starwars-names/issues"
+    "url": "https://github.com/fedeviotti/starwars-names-fv/issues"
   },
-  "homepage": "https://github.com/fedeviotti/starwars-names#readme",
+  "homepage": "https://github.com/fedeviotti/starwars-names-fv#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   }

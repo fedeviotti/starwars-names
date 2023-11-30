@@ -3,6 +3,9 @@
   "version": "0.0.0-development",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
+  "release": {
+    "branches": ["main"]
+  },
   "scripts": {
     "commit": "cz",
     "test": "mocha src/index.test.js",

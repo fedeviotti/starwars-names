@@ -1,5 +1,5 @@
-const expect = require('chai').expect;
-const starWars = require('./index');
+var expect = require('chai').expect;
+var starWars = require('./index');
 
 describe('starwars-name', () => {
   describe('all', () => {

@@ -1,15 +1,17 @@
 {
   "name": "starwars-names-fv",
-  "version": "1.1.1",
+  "version": "0.0.0-development",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "commit": "cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fedeviotti/starwars-names-fv.git"
+    "url": "https://github.com/fedeviotti/starwars-names-fv.git"
   },
   "keywords": [
     "random",
@@ -23,8 +25,18 @@
   },
   "homepage": "https://github.com/fedeviotti/starwars-names-fv#readme",
   "dependencies": {
-    "chai": "3.2.0",
-    "mocha": "2.2.5",
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.2.0",
+    "commitizen": "4.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "mocha": "2.2.5",
+    "semantic-release": "^22.0.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

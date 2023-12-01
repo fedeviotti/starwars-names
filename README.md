@@ -11,10 +11,9 @@
 - [github actions](https://docs.github.com/en/actions) as CI (replaced [travis](https://www.travis-ci.com/))
 - [jest](https://jestjs.io/) for test and test coverage (replaced [mocha](https://www.npmjs.com/package/mocha), [chai](https://www.npmjs.com/package/chai) and [instanbul](https://istanbul.js.org/))
 - [husky](https://typicode.github.io/husky/) for pre-commit hook (replaced [ghooks](https://www.npmjs.com/package/ghooks))
-- [codecov](https://about.codecov.io/) for coverage report (optional)
+- [codecov](https://about.codecov.io/) for coverage report
 - [shields](https://shields.io/) for badges
 
 ## To do
 - set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)
-- add coverage report with [codecov](https://about.codecov.io/) (optional)
 - add ES6 support with [babel](https://babeljs.io/)

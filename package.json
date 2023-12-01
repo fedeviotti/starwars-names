@@ -10,11 +10,10 @@
   },
   "scripts": {
     "commit": "cz",
-    "test": "mocha src/index.test.js",
+    "test": "jest",
     "semantic-release": "semantic-release",
     "prepare": "husky install"
   },
-  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/fedeviotti/starwars-names-fv.git"
@@ -34,12 +33,11 @@
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
-    "chai": "3.2.0",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
-    "mocha": "2.2.5",
-    "semantic-release": "^22.0.8",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "jest": "29.7.0",
+    "semantic-release": "^22.0.8"
   },
   "config": {
     "commitizen": {

@@ -6,17 +6,15 @@
 # starwars-names-fv
 
 ## Tools used
-- [semantic-release](https://github.com/semantic-release/semantic-release) and [semantic-release-cli](https://github.com/semantic-release/cli)
-- [commitizen](https://github.com/commitizen/cz-cli)
-- [github actions](https://docs.github.com/en/actions) (replaced [travis](https://www.travis-ci.com/))
-- [jest](https://jestjs.io/) (will replace [mocha](https://www.npmjs.com/package/mocha), [chai](https://www.npmjs.com/package/chai) and [instanbul](https://istanbul.js.org/))
-- [husky](https://typicode.github.io/husky/) (replaced [ghooks](https://www.npmjs.com/package/ghooks))
-- [codecov](https://about.codecov.io/)
-- [shields](https://shields.io/)
+- [semantic-release](https://github.com/semantic-release/semantic-release) and [semantic-release-cli](https://github.com/semantic-release/cli) for release automation
+- [commitizen](https://github.com/commitizen/cz-cli) for commit message format
+- [github actions](https://docs.github.com/en/actions) as CI (replaced [travis](https://www.travis-ci.com/))
+- [jest](https://jestjs.io/) for test and test coverage (replaced [mocha](https://www.npmjs.com/package/mocha), [chai](https://www.npmjs.com/package/chai) and [instanbul](https://istanbul.js.org/))
+- [husky](https://typicode.github.io/husky/) for pre-commit hook (replaced [ghooks](https://www.npmjs.com/package/ghooks))
+- [codecov](https://about.codecov.io/) for coverage report (optional)
+- [shields](https://shields.io/) for badges
 
 ## To do
-- replace [mocha](https://www.npmjs.com/package/mocha), [chai](https://www.npmjs.com/package/chai) and [instanbul](https://istanbul.js.org/) with [jest](https://jestjs.io/)
-- add coverage with jest [coverage](https://jestjs.io/docs/cli#--coverageboolean) or [collect coverage](https://jestjs.io/docs/configuration#collectcoverage-boolean)
-- set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) 
+- set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)
 - add coverage report with [codecov](https://about.codecov.io/) (optional)
 - add ES6 support with [babel](https://babeljs.io/)

@@ -14,7 +14,6 @@
     "semantic-release": "semantic-release",
     "prepare": "husky install"
   },
-  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/fedeviotti/starwars-names-fv.git"

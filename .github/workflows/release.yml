@@ -30,7 +30,7 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Run tests with coverage
-        run: npm test:coverage
+        run: npm test -- --coverage
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
         env:

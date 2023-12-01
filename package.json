@@ -4,12 +4,15 @@
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   },
   "scripts": {
     "commit": "cz",
     "test": "mocha src/index.test.js",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
   },
   "type": "commonjs",
   "repository": {
@@ -35,7 +38,8 @@
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "mocha": "2.2.5",
-    "semantic-release": "^22.0.8"
+    "semantic-release": "^22.0.8",
+    "husky": "^8.0.0"
   },
   "config": {
     "commitizen": {

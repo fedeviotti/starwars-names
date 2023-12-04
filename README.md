@@ -5,7 +5,7 @@
 
 # starwars-names-fv
 
-## Tools used
+## Features implemented and tools used
 - [semantic-release](https://github.com/semantic-release/semantic-release) and [semantic-release-cli](https://github.com/semantic-release/cli) for release automation
 - [commitizen](https://github.com/commitizen/cz-cli) for commit message format
 - [github actions](https://docs.github.com/en/actions) as CI (replaced [travis](https://www.travis-ci.com/))
@@ -17,5 +17,5 @@
 - add ES6 support for test (using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
 - add TypeScript support and generate type definition
 
-## To do
+## Todos
 - set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)

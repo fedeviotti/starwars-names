@@ -1,11 +1,7 @@
-var uniqueRandomArray = require('unique-random-array');
-var starWarsNames = require('./starwars-names.json');
-var getRandomItem = uniqueRandomArray(starWarsNames);
+import uniqueRandomArray from 'unique-random-array';
+import starwarsNamesList from './starwars-names.json';
 
-module.exports = {
-  all: starWarsNames,
-  random
-}
+const getRandomItem = uniqueRandomArray(starwarsNamesList);
 
 function random(number) {
   if (number === undefined) {
@@ -18,3 +14,7 @@ function random(number) {
     return randomItems;
   }
 }
+
+const starwarsNames = { all: starwarsNamesList, random };
+
+export default starwarsNames;

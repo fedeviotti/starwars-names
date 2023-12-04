@@ -13,9 +13,9 @@
 - [husky](https://typicode.github.io/husky/) for pre-commit hook (replaced [ghooks](https://www.npmjs.com/package/ghooks))
 - [codecov](https://about.codecov.io/) for coverage report
 - [shields](https://shields.io/) for badges
+- add ES6 support (using type="module" in package.json)
+- add ES6 support for test (using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
+- add TypeScript support and generate type definition
 
 ## To do
 - set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)
-- add ES6 support (using type="module" in package.json)
-- add ES6 support for test (using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
-- add TypeScript support (create @types/starwars-names-fv)

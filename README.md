@@ -17,3 +17,4 @@
 ## To do
 - set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)
 - add ES6 support with [babel](https://babeljs.io/)
+- add TypeScript support (create @types/starwars-names-fv)

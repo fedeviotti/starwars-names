@@ -19,3 +19,4 @@
 
 ## Todos
 - set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)
+- create a build minified using [vite](https://vitejs.dev/)

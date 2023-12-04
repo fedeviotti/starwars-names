@@ -8,9 +8,10 @@
       "main"
     ]
   },
+  "type": "module",
   "scripts": {
     "commit": "cz",
-    "test": "jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "semantic-release": "semantic-release",
     "prepare": "husky install"
   },

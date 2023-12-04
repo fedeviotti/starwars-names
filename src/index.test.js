@@ -1,10 +1,10 @@
-var starWars = require('./index');
+import starWars from './index';
 
 describe('starwars-name', () => {
   describe('all', () => {
     it('should be an array of strings', () => {
-      var allNames = starWars.all;
-      var isArrayOfStrings = allNames.every((item) => {
+      const allNames = starWars.all;
+      const isArrayOfStrings = allNames.every((item) => {
         return typeof item === 'string';
       });
       expect(isArrayOfStrings).toBeTruthy();

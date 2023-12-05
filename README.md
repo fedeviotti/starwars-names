@@ -13,10 +13,17 @@
 - [husky](https://typicode.github.io/husky/) for pre-commit hook (replaced [ghooks](https://www.npmjs.com/package/ghooks))
 - [codecov](https://about.codecov.io/) for coverage report
 - [shields](https://shields.io/) for badges
-- add ES6 support (using type="module" in package.json)
-- add ES6 support for test (using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
-- add TypeScript support and generate type definition
+- ES6 support for source code (using type="module" in package.json)
+- ES6 support for tests using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
+- TypeScript support for source code
+- TypeScript support for tests using [@swc/jest](https://swc.rs/docs/usage/jest)
 
 ## Todos
 - set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)
-- create a build minified using [vite](https://vitejs.dev/)
+- run tsc to generate types before build
+- add a bundler, options are
+  - [vite](https://vitejs.dev/)
+  - [rollup](https://rollupjs.org/guide/en/)
+  - [tsup](https://github.com/egoist/tsup): no because I need a node server
+- add bundler visualized analysis with [vite bundler visualizer](https://www.npmjs.com/package/vite-bundle-visualizer)
+  - check @swc/core and @swc-jest size compare to ts-jest

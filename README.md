@@ -5,7 +5,7 @@
 
 # starwars-names-fv
 
-## Tools used
+## Features implemented and tools used
 - [semantic-release](https://github.com/semantic-release/semantic-release) and [semantic-release-cli](https://github.com/semantic-release/cli) for release automation
 - [commitizen](https://github.com/commitizen/cz-cli) for commit message format
 - [github actions](https://docs.github.com/en/actions) as CI (replaced [travis](https://www.travis-ci.com/))
@@ -13,9 +13,14 @@
 - [husky](https://typicode.github.io/husky/) for pre-commit hook (replaced [ghooks](https://www.npmjs.com/package/ghooks))
 - [codecov](https://about.codecov.io/) for coverage report
 - [shields](https://shields.io/) for badges
+- ES6 support for source code (using type="module" in package.json)
+- ES6 support for tests using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
+- TypeScript support for source code
+- TypeScript support for tests using [@swc/jest](https://swc.rs/docs/usage/jest)
+- use tsc to generate types for the package
+- add [vite](https://vitejs.dev/) to bundle the package
 
-## To do
+## Todos
 - set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)
-- add ES6 support (using type="module" in package.json)
-- add ES6 support for test (using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
-- add TypeScript support (create @types/starwars-names-fv)
+- add bundler visualized analysis with [vite bundler visualizer](https://www.npmjs.com/package/vite-bundle-visualizer)
+  - check @swc/core and @swc-jest size compare to ts-jest

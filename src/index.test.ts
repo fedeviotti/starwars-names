@@ -23,7 +23,7 @@ describe('starwars-name', () => {
     });
 
     it('should return an array of random items if passed a number', () => {
-      const randomItems = starWars.random(3);
+      const randomItems = starWars.random(3) as string[];
       expect(randomItems).toHaveLength(3);
       randomItems.forEach((item) => {
         expect(starWars.all).toContain(item);

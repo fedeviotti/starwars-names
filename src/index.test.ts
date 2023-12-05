@@ -1,4 +1,4 @@
-import starWars from './index.ts';
+import starWars from './index';
 
 describe('starwars-name', () => {
   describe('all', () => {

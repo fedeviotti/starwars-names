@@ -24,6 +24,7 @@
 - add a bundler, options are
   - [vite](https://vitejs.dev/)
   - [rollup](https://rollupjs.org/guide/en/)
-  - [tsup](https://github.com/egoist/tsup): no because I need a node server
+  - [tsup](https://github.com/egoist/tsup)
+  - [esbuild](https://esbuild.github.io/)
 - add bundler visualized analysis with [vite bundler visualizer](https://www.npmjs.com/package/vite-bundle-visualizer)
   - check @swc/core and @swc-jest size compare to ts-jest

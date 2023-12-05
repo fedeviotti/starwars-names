@@ -17,7 +17,7 @@
 - ES6 support for tests using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
 - TypeScript support for source code
 - TypeScript support for tests using [@swc/jest](https://swc.rs/docs/usage/jest)
-- use tsc to generate types for the package
+- use [tsc](https://www.npmjs.com/package/typescript) to generate types for the package
 - add [vite](https://vitejs.dev/) to bundle the package
 
 ## Todos

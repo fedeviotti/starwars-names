@@ -17,14 +17,10 @@
 - ES6 support for tests using [Jest native](https://jestjs.io/docs/ecmascript-modules) support, here is a stackoverflow [question](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm) about it)
 - TypeScript support for source code
 - TypeScript support for tests using [@swc/jest](https://swc.rs/docs/usage/jest)
+- use tsc to generate types for the package
+- add [vite](https://vitejs.dev/) to bundle the package
 
 ## Todos
 - set coverage threshold with [jest](https://jestjs.io/docs/configuration#coveragethreshold-object) (optional)
-- run tsc to generate types before build
-- add a bundler, options are
-  - [vite](https://vitejs.dev/)
-  - [rollup](https://rollupjs.org/guide/en/)
-  - [tsup](https://github.com/egoist/tsup)
-  - [esbuild](https://esbuild.github.io/)
 - add bundler visualized analysis with [vite bundler visualizer](https://www.npmjs.com/package/vite-bundle-visualizer)
   - check @swc/core and @swc-jest size compare to ts-jest
